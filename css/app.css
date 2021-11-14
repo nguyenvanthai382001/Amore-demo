@@ -515,5 +515,62 @@ nav .nav-main .menu .icon-search i:hover {
   background: linear-gradient(#fdb813, #fd8313);
   color: #000;
 }
+.project .project-list {
+  margin-top: 150px;
+}
+.project .project-list .project-item a img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+.project .project-list .slick-prev {
+  display: none !important;
+}
+.project .project-list .slick-next {
+  display: none !important;
+}
+.project .project-list .slick-dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50px);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 0 30px;
+  font-size: 0px;
+  width: 15px;
+  height: 15px;
+}
+.project .project-list button {
+  font-size: 0px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+}
+.project .project-list .slick-active button {
+  background-color: #fd8313;
+}
+.project .project-list .content a {
+  text-decoration: none;
+}
+.project .project-list .content a .name-project {
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+.project .project-list .content .watch-more {
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 5px 15px;
+}
 
 /*# sourceMappingURL=app.css.map */
